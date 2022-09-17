@@ -43,6 +43,7 @@ public class SesionFragment extends Fragment implements Response.Listener<JSONOb
         jbtingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 iniciar_sesion();
             }
         });
